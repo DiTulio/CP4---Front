@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="navbar-eco">
         <nav class="container menu-eco" aria-label="Menu principal">
-            <a class="navbar-brand fw-bold" href="index.html"><i class="fa-solid fa-leaf" aria-hidden="true"></i> EcoTrend</a>
+            <a class="navbar-brand fw-bold" href="index.html"><i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                EcoTrend</a>
             <ul class="menu-links">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="categoria.html">Categorias</a></li>
@@ -23,17 +26,67 @@
     </header>
 
     <main class="container my-5">
-        <article class="row g-4">
+        <article class="row g-4 mb-5" id="roupas">
             <figure class="col-md-6 mb-0">
                 <div class="imagem-produto produto-detalhe">
-                    <img src="https://media.karousell.com/media/photos/products/2023/4/2/uniqlo_1680409772_1741954f.jpg">
+                    <img src="https://media.karousell.com/media/photos/products/2023/4/2/uniqlo_1680409772_1741954f.jpg"
+                        alt="Camiseta reciclada">
                 </div>
                 <figcaption class="visually-hidden">Camiseta reciclada</figcaption>
             </figure>
 
-            <section class="col-md-6" aria-labelledby="titulo-produto">
-                <h1 id="titulo-produto">Camiseta reciclada</h1>
+            <section class="col-md-6" aria-labelledby="titulo-roupas">
+                <h1 id="titulo-roupas">Camiseta reciclada</h1>
                 <p class="text-success fs-4 fw-bold">R$ 89,00</p>
+                <p>Produto sustentável feito com materiais de origem responsável.</p>
+                <a class="btn btn-eco" href="contato.html">Tenho interesse</a>
+            </section>
+        </article>
+
+        <article class="row g-4 mb-5" id="beleza">
+            <figure class="col-md-6 mb-0">
+                <div class="imagem-produto produto-detalhe">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.QxKdNSvnBI0yEsjMgXSd_QHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Sabonete vegano">
+                </div>
+                <figcaption class="visually-hidden">Sabonete vegano</figcaption>
+            </figure>
+
+            <section class="col-md-6" aria-labelledby="titulo-beleza">
+                <h1 id="titulo-beleza">Sabonete vegano</h1>
+                <p class="text-success fs-4 fw-bold">R$ 29,00</p>
+                <p>Produto sustentável feito com materiais de origem responsável.</p>
+                <a class="btn btn-eco" href="contato.html">Tenho interesse</a>
+            </section>
+        </article>
+
+        <article class="row g-4 mb-5" id="casa">
+            <figure class="col-md-6 mb-0">
+                <div class="imagem-produto produto-detalhe">
+                    <img src="https://m.media-amazon.com/images/I/41saCcf0GFL._AC_SX679_.jpg" alt="Potes de bambu">
+                </div>
+                <figcaption class="visually-hidden">Potes de bambu</figcaption>
+            </figure>
+
+            <section class="col-md-6" aria-labelledby="titulo-casa">
+                <h1 id="titulo-casa">Potes de bambu</h1>
+                <p class="text-success fs-4 fw-bold">R$ 149,00</p>
+                <p>Produto sustentável feito com materiais de origem responsável.</p>
+                <a class="btn btn-eco" href="contato.html">Tenho interesse</a>
+            </section>
+        </article>
+
+        <article class="row g-4" id="tecnologia">
+            <figure class="col-md-6 mb-0">
+                <div class="imagem-produto produto-detalhe">
+                    <img src="https://m.media-amazon.com/images/I/71zpVVph3mL._AC_.jpg" alt="Carregador solar">
+                </div>
+                <figcaption class="visually-hidden">Carregador solar</figcaption>
+            </figure>
+
+            <section class="col-md-6" aria-labelledby="titulo-tecnologia">
+                <h1 id="titulo-tecnologia">Carregador solar</h1>
+                <p class="text-success fs-4 fw-bold">R$ 219,00</p>
                 <p>Produto sustentável feito com materiais de origem responsável.</p>
                 <a class="btn btn-eco" href="contato.html">Tenho interesse</a>
             </section>
@@ -41,7 +94,10 @@
     </main>
 
     <footer class="footer-eco text-center">
-        <div class="container"><p class="mb-0">&copy; 2026 EcoTrend</p></div>
+        <div class="container">
+            <p class="mb-0">&copy; 2026 EcoTrend</p>
+        </div>
     </footer>
 </body>
+
 </html>
