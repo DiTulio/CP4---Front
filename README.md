@@ -74,6 +74,16 @@ O layout em grid se adapta a diferentes tamanhos de tela:
 - As imagens dos produtos são carregadas a partir de links externos (Amazon, Bing Images, Karousell) apenas para fins ilustrativos.
 - O formulário de contato não possui backend — o atributo `action="#"` é um placeholder.
 
+## 👥 Autores
+
+| Nome                                        |   RM    |
+|---------------------------------------------|---------|
+| Ryan Romagnoli Santos                       | 568845  |
+| Lucas Zarantonelli Lourenço                 | 569164  |
+| Felipe Romano de Paula Souza                | 571653  |
+| Nicole Barbosa Oliveira de Lima             | 569505  |
+| Vinicius Di Tulio Gomes Silva               | 573019  |
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a licença [MIT](LICENSE) — © 2026 DiTulio.
